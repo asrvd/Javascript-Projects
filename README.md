@@ -16,4 +16,4 @@ A compilation of 10 JavaScript Projects I'm working on while learning JavaScript
 - [ ] Password Generator App
 - [ ] Weather App
 
-##Wish me Luck! :octocat:
+>Wish me Luck! :octocat: 
