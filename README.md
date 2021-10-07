@@ -1,5 +1,7 @@
 # Javascript-Projects
-A compilation of 10 JavaScript Projects I'm working on while learning JavaScript.
+<img src="https://miro.medium.com/max/2000/0*eIhVp0KXrXSSHORN.gif" height="500px" width="1000px" align="center"></img>
+
+</br>**A compilation of 10 JavaScript Projects I'm working on while learning JavaScript.**
 
 **Inspired From: [Florin Pop](https://www.youtube.com/channel/UCeU-1X402kT-JlLdAitxSMA)**
 
