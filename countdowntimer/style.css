@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(/countdowntimer/assets/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #ffff;
+    margin-top: 10rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+.countdown-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(240, 213, 235, 0.2);
+    border-radius: 1.5rem;
+    padding: 2rem;
+    background-size: cover;
+}
+
+.big-text {
+    font-size: 6rem;
+    margin: 0rem 2rem;
+    font-weight: bolder;
+    color: #ffff;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.2rem;
+    color: #ffff;
+}
