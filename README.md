@@ -1,7 +1,7 @@
 # Javascript-Projects
 A compilation of 10 JavaScript Projects I'm working on while learning JavaScript.
 
-**Inspired From: [FLorin Pop](https://www.youtube.com/channel/UCeU-1X402kT-JlLdAitxSMA)**
+**Inspired From: [Florin Pop](https://www.youtube.com/channel/UCeU-1X402kT-JlLdAitxSMA)**
 
 ## TODO
 
@@ -16,4 +16,4 @@ A compilation of 10 JavaScript Projects I'm working on while learning JavaScript
 - [ ] Password Generator App
 - [ ] Weather App
 
-#Wish me Luck! :octocat:
+##Wish me Luck! :octocat:
