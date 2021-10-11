@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #C9D6FF;
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.mobile-container {
+    background-color: #ffff;
+    width: 400px;
+    box-shadow: -1px 3px 20px 7px rgba(164,170,189,0.59);
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+header input {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(230, 230, 230);
+    font-family: inherit;
+    outline: none;
+}
+
+header button {
+    background-color: transparent;
+    color: rgb(112, 112, 112);
+    border: none;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+header button:hover {
+    cursor: pointer;
+}
+
+.fav-container {
+    padding: 0.25rem 1rem;
+    text-align: center;
+    background-color: rgb(222, 239, 255, 0.7);
+}
+
+.fav-meals {
+    display: flex;
+    flex-wrap: wrap;
+
+    list-style-type: none;
+    padding: 0;
+}
+
+.fav-meals li {
+    width: 82px;
+    cursor: pointer;
+    position: relative;
+    margin: 5px;
+}
+
+.fav-meals li .clear {
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    color: rgb(255, 72, 72);
+    position: absolute;
+    top: 0px;
+    right: 0.3px;
+    font-weight: bolder;
+    opacity: 0;
+    transition: 1s;
+}
+
+.fav-meals li .clear:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.fav-meals li:hover .clear {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.fav-meals li img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: -1px 3px 20px 7px rgba(164,170,189,0.59);
+    border: 2px solid #ffff;
+    cursor: pointer;
+}
+
+.fav-meals li span {
+    display: inline-block;
+    text-overflow: ellipsis;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 75px;
+}
+
+.meal {
+    margin: 1rem;
+    border-radius: 3px;
+    box-shadow: -1px -1px 9px 3px rgba(174,174,174,0.75);
+}
+
+.meal-header {
+    position: relative;
+    cursor: pointer;
+}
+
+.meal-header .random {
+    position: absolute;
+    top: 1rem;
+    background-color: #ffff;
+    padding: 0.5rem;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: rgb(146, 146, 146);
+    font-weight: bold;
+}
+
+.meal-header img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.meal-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.meal-body h4 {
+    margin: 0;
+    padding: 1rem 0;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.meal-body .fav-btn {
+    background-color: transparent;
+    border: none;
+    color: gray;
+    font-size: 1rem;
+}
+
+.meal-body .fav-btn.active {
+    color: rgb(252, 109, 109);
+}
+
+.fav-btn:hover {
+    cursor: pointer;
+}
+
+.popup-container {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-container.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.popup {
+    background-color: #ffff;
+    max-width: 600px;
+    width: 100%;
+    padding: 0 2rem;
+    max-height: 100vh;
+    position: relative;
+    overflow: auto;
+    border-radius: 5px;
+}
+
+.popup h1 {
+    text-align: center;
+}
+
+.popup img {
+    max-width: 100%;
+    height: 300px;
+    width: 600px;
+    
+    object-fit: cover;
+}
+
+.popup .close-popup {
+    background-color: transparent;
+    border: none;
+    font-size: 1.7rem;
+    color: rgb(255, 72, 72);
+    font-weight: bolder;
+    top: 1rem;
+    right: 2rem;
+    position: absolute;
+    cursor: pointer;
+}
