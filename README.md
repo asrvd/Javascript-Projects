@@ -9,7 +9,7 @@
 
 - [x] Countdown Timer App
 - [x] Simple Quiz App
-- [ ] Recipe App
+- [x] Recipe App
 - [ ] Notes App
 - [ ] ToDo App
 - [ ] Movies App
