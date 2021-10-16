@@ -10,7 +10,7 @@
 - [x] Countdown Timer App
 - [x] Simple Quiz App
 - [x] Recipe App
-- [ ] Notes App
+- [x] Notes App (Still working on Save Feature)
 - [ ] ToDo App
 - [ ] Movies App
 - [ ] GitHub Profiles
