@@ -11,7 +11,7 @@
 - [x] Simple Quiz App
 - [x] Recipe App
 - [x] Notes App (Still working on Save Feature)
-- [ ] ToDo App
+- [x] ToDo App
 - [ ] Movies App
 - [ ] GitHub Profiles
 - [ ] Drawing App
