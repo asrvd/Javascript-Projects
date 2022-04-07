@@ -1,4 +1,4 @@
-const ctms = "11 Mar 2022"
+const ctms = "20 June 2022"
 
 const daysEl = document.getElementById('days')
 const hoursEl = document.getElementById('hours')
