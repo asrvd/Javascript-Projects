@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: url(/countdowntimer/assets/images/bg.jpg);
+    background-image: url(./countdowntimer/assets/images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
